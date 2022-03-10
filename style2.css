@@ -1,0 +1,76 @@
+body{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main{
+width: 100%;
+}
+nav{
+  justify-content: space-between;
+  line-height: 80px;
+  height: 10%;
+  display: flex;
+  background: white;
+  width:100%;
+}
+.logo a{
+font-size:40px;
+color: brown;
+font-weight: bold;
+margin-left: 80px;
+
+}
+a{
+text-decoration: none;
+color: black;
+font-size:20px;
+font-weight: bold
+}
+ul{
+margin: 1px;
+margin-right:100px;
+}
+ul li{
+float: right;
+padding: 5px 20px;
+life-style: none;
+}
+ul li a:hover{
+color: brown;
+}
+.header{
+background-image: url(https://betrhealth.com/wp-content/uploads/2018/03/Marinated_Flank_Steak.jpg);
+background-size:cover;
+background-position:center;
+background-repeat:no repeat;
+height: 100vh;
+}
+.content{
+position: absolute;
+color: white;
+text-align: center;
+width:600px;
+margin:20% 30%;
+height: 300px;
+}
+.content h1{
+font-size: 50px;
+}
+.content p{
+padding: 0px 50px;
+font-size: 20px
+}
+button{
+background:none;
+border: 1px solid white;
+color: white;
+font-size: 18px;
+padding: 10px 25px;
+border-radius: 6px;
+transition: 0.5 all ease;
+}
+button:hover{
+background:white;
+color: black;
+}
