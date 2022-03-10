@@ -1,0 +1,54 @@
+body{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+
+   .main{
+     width: 100%;
+}
+
+nav{
+    width: 100%
+    background-color: white;
+    height: 80px;
+    line-height: 80%;
+    display:flex;
+    justify-content: space-between;
+}
+
+logo a{
+   font-size:39px;
+   color: blue;
+   font-weight: bold;
+   margin-left: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  transition: 0.3s all ease;
+}
+
+ul{
+  margin: 0px;
+  margin-right:100px;
+}
+
+  ul li{
+  float: left;
+  padding: 0px 10px;
+  list-style: none;
+}
+  ul li a:hover{
+  color: red;
+}
+
+hearder{
+  background:url("https://cdn-suncoast.pressidium.com/wp-content/uploads/2020/08/Ocean-Basket_Featured.jpg");
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
